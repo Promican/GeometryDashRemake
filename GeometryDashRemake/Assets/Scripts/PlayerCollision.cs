@@ -10,6 +10,7 @@ public class PlayerCollision : MonoBehaviour
         if (collision.collider.tag == "Ground")
         {
             GetComponent <PlayerBehaviour>().JumpEnabled = true;
+            GetComponent <PlayerBehaviour>().RotationIsEnabled = false;
         }
     }
 

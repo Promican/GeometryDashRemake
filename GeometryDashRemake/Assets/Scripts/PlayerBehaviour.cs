@@ -23,7 +23,7 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (RotationIsEnabled)
         {
-            transform.Rotate(0, 0, transform.rotation.z - RotationSpeed);
+            transform.Rotate(0, 0, -RotationSpeed);
         }
     }
 }
